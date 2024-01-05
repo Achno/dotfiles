@@ -1,0 +1,5 @@
+@-moz-document url("about:home"), url("about:newtab"){
+  .search-wrapper .logo-and-wordmark .logo{
+    background-image: url("Firefox_Focus_2021_Icon.svg") !important;
+  }
+}

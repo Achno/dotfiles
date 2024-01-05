@@ -1,0 +1,4 @@
+Author: natabot
+Theme: Catppuccin
+
+(Note: make sure to disable updates)
