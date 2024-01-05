@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+echo "Starting polybar"
+nohup polybar mochaBar > output.log 2>&1 &
+
+
+echo "Disabling AMD Turbo boost"
+echo "0" | sudo tee /sys/devices/system/cpu/cpufreq/boost 
+
+echo "#### Starting latte-dock ####"
+nohup latte-dock &
+
+#echo "Enabling audio Equalizer"
+#cd Documents/git\ clones/JDSP4Linux/build/src && nohup ./jamesdsp
+
+echo "-=-=-=-All tasks finished-=-=-=-="

@@ -1,0 +1,8 @@
+ 
+
+
+    In /etc/sddm.conf:
+
+    [X11]
+    ServerArguments=-nolisten tcp -dpi 96
+

@@ -1,0 +1,21 @@
+Author: Achno
+
+2) An insanely annoying popping / bump sound that i hear sometimes when a new video starts playing.
+
+From what i gathered its an audio power saving thing and after following the below steps it fixes it sometimes but i still hear those pop sounds a lot but not to the degree i heard them before.
+
+1. Change the value from 10 → 0
+
+sudo nano /sys/module/snd_hda_intel/parameters/power_save
+
+2.Change Y → N
+
+sudo nano /sys/module/snd_hda_intel/parameters/power_save_controller
+
+3.Make these changes persistent on reboot, add
+
+options snd-hda-intel power_save=0 power_save_controller=N
+
+inside this
+
+sudo nano /etc/modprobe.d/alsa-base.conf
