@@ -72,6 +72,10 @@ alias vim='nvim'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'  # dotfiles use with "config <file>"
 alias poly=' nohup polybar mochaBar > output.log 2>&1 &'
 alias vims='vim $(fzf)'
+alias vimp='vim $(fzf --preview '\''bat --color=always {}'\'')'
+
+
+
 
 
 
