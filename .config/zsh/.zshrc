@@ -43,6 +43,9 @@ compinit
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 
+#fzf configs
+export FZF_DEFAULT_COMMAND="find -L"
+
 
 # theme/plugins
 # source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -68,6 +71,7 @@ alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles exce
 alias vim='nvim'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'  # dotfiles use with "config <file>"
 alias poly=' nohup polybar mochaBar > output.log 2>&1 &'
+alias vims='vim $(fzf)'
 
 
 
