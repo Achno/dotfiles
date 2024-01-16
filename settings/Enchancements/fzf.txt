@@ -1,0 +1,5 @@
+# Enable fzf key bindinga (zsh history searching and others)
+# Add it to the .zshrc
+source /usr/share/fzf/key-bindings.zsh
+
+

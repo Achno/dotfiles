@@ -45,6 +45,7 @@ bindkey '^e' end-of-line
 
 #fzf configs
 export FZF_DEFAULT_COMMAND="find -L"
+source /usr/share/fzf/key-bindings.zsh
 
 
 # theme/plugins
