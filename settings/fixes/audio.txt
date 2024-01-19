@@ -1,0 +1,3 @@
+# If audio is gargled up after a black screen / sleep reinitialize ALSA
+alsactl init
+
