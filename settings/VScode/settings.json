@@ -5,4 +5,5 @@
     "window.titleBarStyle": "custom",
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "csharpier.csharpier-vscode",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
 }
