@@ -12,6 +12,7 @@ HISTFILE=~/.cache/zsh/history
 
 #exports
 export PATH=$PATH:.config/polybar/scripts
+export PATH="$PATH:/home/achno/.dotnet/tools"
 
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"

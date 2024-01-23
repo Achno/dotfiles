@@ -1,0 +1,8 @@
+ {
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "window.titleBarStyle": "custom",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+}
