@@ -1,0 +1,6 @@
+# about:config
+toolkit.legacyUserProfileCustomizations.stylesheets ---> true
+mousewheel.system_scroll_override.enabled ---> false
+
+# ENV params
+MOZ_USE_XINPUT2=1
