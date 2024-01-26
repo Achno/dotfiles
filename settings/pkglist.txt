@@ -28,6 +28,7 @@ dnsmasq
 dolphin
 dolphin-plugins
 dosfstools
+dotnet-sdk
 downgrade
 dracut
 duf
@@ -47,6 +48,7 @@ eos-settings-plasma
 eos-update-notifier
 ethtool
 exfatprogs
+eza
 f2fs-tools
 fastfetch
 ffmpegthumbnailer
@@ -112,6 +114,7 @@ mtools
 nano
 nano-syntax-highlighting
 ncdu
+neofetch
 neovim
 netctl
 networkmanager
