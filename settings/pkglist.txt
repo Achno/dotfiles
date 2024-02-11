@@ -5,6 +5,7 @@ alsa-plugins
 alsa-utils
 amd-ucode
 ark
+aspnet-runtime
 b43-fwcutter
 base
 base-devel
@@ -122,10 +123,12 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+nodejs-lts-iron
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+npm
 nss-mdns
 ntfs-3g
 ntp
