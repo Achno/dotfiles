@@ -78,9 +78,7 @@ alias vimp='vim $(fzf --preview '\''bat --color=always {}'\'')'
 alias pclean='paccache -rk1'
 alias ls='eza --icons --color=always --group-directories-first'
 alias cat='bat'
-
-
-
+alias poke='python3 /home/achno/assets/pokemon-colorscripts/pokemon-colorscripts.py -r --no-title'
 
 
 
